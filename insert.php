@@ -79,47 +79,4 @@ if( !empty( $_POST ) ){
 
 // echo $json;
 } 
-
-// print_r($_POST)
-
-
-// $target_path = "uploads/";
-
-// $target_path = $target_path . basename( $_FILES['uploadedfile']['name']); 
-
-// if(move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path)) {
-//     echo "The file ".  basename( $_FILES['uploadedfile']['name']). 
-//     " has been uploaded";
-// } else{
-//     echo "There was an error uploading the file, please try again!";
-// }
-
-// $data = array();
-
-// if(isset($_GET['files']))
-// {  
-//     $error = false;
-//     $files = array();
-
-//     $uploaddir = './uploads/';
-//     foreach($_FILES as $file)
-//     {
-//         if(move_uploaded_file($file['tmp_name'], $uploaddir .basename($file['name'])))
-//         {
-//             $files[] = $uploaddir .$file['name'];
-//         }
-//         else
-//         {
-//             $error = true;
-//         }
-//     }
-//     $data = ($error) ? array('error' => 'There was an error uploading your files') : array('files' => $files);
-// }
-// else
-// {
-//     $data = array('success' => 'Form was submitted', 'formData' => $_POST);
-// }
-
-// echo json_encode($data);
-
 ?>

@@ -2,8 +2,6 @@
 	if (isset ($_GET['playerid'])) {
 	    $playerid = $_GET['playerid'];
 	}
-	// echo $playerid;
-	// print_r($playerid);
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -16,9 +14,7 @@
     <link rel="stylesheet" href="css/fileinput.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
     <script src="js/vendor/modernizr.js"></script>
-    <!--<script src="js/modernizr.custom.js"></script>-->
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/jquery-fileupload.min.js"></script>
     <style type="text/css">
 	    .profile {
 	    	width:80%;
@@ -66,9 +62,6 @@
 		</script>
   	</div>
     <script src="js/foundation.min.js"></script>
-<!--    <script src="js/classie.js"></script>
-    <script src="js/helper.js"></script>
-    <script src="js/grid3d.js"></script> -->
     <script src="js/jquery.tabletojson.js"></script>
     <script>
 
@@ -79,7 +72,6 @@
 
     //Init Foundation
     $(document).foundation();
-    // new grid3D( document.getElementById( 'grid3d' ) );
 
 
     /*************************
@@ -115,16 +107,6 @@
             } else if (nl) {
               // save
               data[el.getAttribute('contenteditable')] = el.innerHTML;
-
-              // we could send an ajax request to update the field
-              /*
-              $.ajax({
-                url: window.location.toString(),
-                data: data,
-                type: 'post'
-              });
-              */
-              // log(JSON.stringify(data));
 
               el.blur();
               event.preventDefault();
