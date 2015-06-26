@@ -3,7 +3,7 @@
 ?>
     <div class="row">
       <div class="large-12 columns" style="text-align:justify;">
-        <h3>Headline</h3>
+        <h3>Spring All-Stars</h3>
         <p>These are the standouts. Every high school athlete is deserving of praise but these are the elite, the best of the best.</p>
          
         <p>Each season, Lohud.com selects All-Stars, student athletes who have shown the greatest skill, commitment, talent and will. These are the athletes who have, through tireless dedication to their sport, have risen above even that elite group.</p>
