@@ -61,5 +61,8 @@
 
     })
     </script>
+    <?php
+      include('omniture.php')
+    ?>
   </body>
 </html>

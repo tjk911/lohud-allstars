@@ -5,10 +5,13 @@
     <title>Lohud's 2015 All-Stars</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/fileinput.min.css" />
+    <!-- <link rel="stylesheet" href="css/fileinput.min.css" /> -->
     <link rel="stylesheet" href="css/custom.css" />
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
+    <?php
+      include('chartbeat.php')
+    ?>
   </head>
   <body>	
   <div id='banner' style="height:77px;"></div>
